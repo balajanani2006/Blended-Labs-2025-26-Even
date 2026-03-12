@@ -126,10 +126,6 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 <img width="1600" height="696" alt="image" src="https://github.com/user-attachments/assets/07853dce-926d-48e9-a083-7ef0f1b2aa72" />
 
 ---
-#Result
-This experiment provided hands-on experience with Amazon EC2 by demonstrating how to launch, connect, manage, and monitor a virtual server in AWS. It helped in understanding the concept of Infrastructure as a Service (IaaS) and how compute resources can be provisioned and controlled on demand in the cloud.
-
-
 ## Result 
 
 This experiment provided hands-on experience with Amazon EC2 by demonstrating how to launch, connect, manage, and monitor a virtual server in AWS. It helped in understanding the concept of Infrastructure as a Service (IaaS) and how compute resources can be provisioned and controlled on demand in the cloud.
