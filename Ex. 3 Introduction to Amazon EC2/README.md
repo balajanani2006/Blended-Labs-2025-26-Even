@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Bala janani.S
+* **Register Number**: 212223060027
+* **Date of Submission**: 12/03/2026
 
 ---
 
@@ -98,11 +98,12 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Launched a new EC2 instance named Web Server in the N. Virginia region using Amazon Linux 2023 AMI and t2.micro instance type.
+2.Enabled termination protection and stop protection, configured a security group, and added a user data script to install and start an Apache web server.
+3.Monitored the instance using status checks, CloudWatch metrics, and system logs to ensure it was running properly.
+4.Modified the security group to allow HTTP (port 80) traffic and accessed the web server using the public IP address.
+5.Resized the instance to t2.small, increased the EBS volume size, explored EC2 service quotas, tested stop protection, and finally stopped the instance.
+
 
 ---
 
@@ -110,21 +111,24 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1600" height="699" alt="image" src="https://github.com/user-attachments/assets/a90ecde5-9a22-4a10-b3a8-db59b71cd867" />
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5e2f6e72-2e25-4332-b4f2-dab425d7c9ce" />
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1600" height="696" alt="image" src="https://github.com/user-attachments/assets/07853dce-926d-48e9-a083-7ef0f1b2aa72" />
 
 ---
+#Result
+This experiment provided hands-on experience with Amazon EC2 by demonstrating how to launch, connect, manage, and monitor a virtual server in AWS. It helped in understanding the concept of Infrastructure as a Service (IaaS) and how compute resources can be provisioned and controlled on demand in the cloud.
+
 
 ## Result 
 
